@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Erika Mendes - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="query.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <h1>Erika Mendes</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#profile">Sobre Mim</a></li>
+                    <li><a href="#certificado">Conhecimentos</a></li>
+                    <li><a href="#projeto">Projetos</a></li>
+                    <li><a href="#rodape">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+    <main>
+    <div class="profile" id="profile">
+        <img src="./imagens/Meu-perfil.jpg" alt="Foto de perfil">
+            <audio id="scratchSound">
+                <source src="./sons/disc-remix.mp3" type="audio/mp3">
+            </audio>
+
+        <div class="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <p>
+            </p>
+            </div>
+    </div>
+    <div class="linguagens" id="certificado">
+        <h2>Conhecimentos de programação</h2>
+        <div class="grid-container-lingaguem">
+            <div class="linguagem">
+                <img src="./imagens/logo-html.png" alt="HTML">
+                <span class="rating">★★★★★</span>
+            </div>
+            <div class="linguagem">
+                <img src="./imagens/logo-css.png" alt="CSS">
+                <span class="rating">★★★★☆</span>
+            </div>
+            <div class="linguagem">
+                <img src="./imagens/Js-logo.png" alt="JavaScript">
+                <span class="rating">★★★★☆</span>
+            </div>
+            <div class="linguagem">
+                <img src="./imagens/c-logo.png" alt="C">
+                <span class="rating">★★☆☆☆</span>
+            </div>
+            <div class="linguagem">
+                <img src="./imagens/unity-logo.png" alt="C">
+                <span class="rating">★☆☆☆☆</span>
+            </div>
+            <div class="linguagem">
+                <img src="./imagens/nodejs-logo.png" alt="Node Js">
+                <span class="rating">★★☆☆☆</span>
+            </div>
+            <div class="linguagem">
+                <img src="./imagens/git-logo.png" alt="Node Js">
+                <span class="rating">★★☆☆☆</span>
+            </div>
+            <div class="linguagem">
+                <img src="./imagens/react-logo.png" alt="Node Js">
+                <span class="rating">★★☆☆☆</span>
+            </div>
+            <div class="linguagem">
+                <img src="./imagens/api-rest.png" alt="Node Js">
+                <span class="rating">★★☆☆☆</span>
+            </div>
+        </div>
+    </div>
+    <div class="certificados" >
+        <h2>Certificados de Cursos</h2>
+        <div class="flex-container" id="carousel">
+            <div class="certificado">
+                <a href="https://certificado.estacio.br/0e3f93c00dfd06d3f20486b" target="_blank" rel="noopener">
+                    <img src="./imagens/Desenvolvimento-jogos-digitais.png" alt="Certificado 1">
+                </a>
+                <p class="legenda">Desenvolvimento De Jogos Digitais</p>
+            </div>
+            <div class="certificado">
+                <a href="https://certificado.estacio.br/fbe2c0ab344d791fd75c3c5" target="_blank" rel="noopener">
+                    <img src="./imagens/certificado-infra.png" alt="Certificado 5">
+                </a>
+                <p class="legenda">Infraestrutura de sistemas computacionais</p>
+            </div>
+            <div class="certificado">
+                <a href="https://www.devmedia.com.br/certificado/tecnologia/html/erika-carla-da-silva-mendes" target="_blank" rel="noopener">
+                    <img src="./imagens/Html.png" alt="Certificado 2">
+                </a>
+                <p class="legenda">HTML</p>
+            </div>
+            <div class="certificado">
+                <a href="https://www.devmedia.com.br/certificado/tecnologia/css/erika-carla-da-silva-mendes" target="_blank" rel="noopener">
+                    <img src="./imagens/css.png" alt="Certificado 3">
+                </a>
+                <p class="legenda">CSS</p>
+            </div>
+            <div class="certificado">
+                <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/erika-carla-da-silva-mendes" target="_blank" rel="noopener">
+                    <img src="./imagens/Javascript.png" alt="Certificado 4">
+                </a>
+                <p class="legenda">Javascript</p>
+            </div>
+            <div class="certificado">
+                <a href="https://www.devmedia.com.br/certificado/tecnologia/node-js/erika-carla-da-silva-mendes" target="_blank" rel="noopener">
+                    <img src="./imagens/node.png" alt="Certificado 5">
+                </a>
+                <p class="legenda">Node JS</p>
+            </div>
+            <div class="certificado">
+                <a href="https://www.devmedia.com.br/certificado/tecnologia/rest/erika-carla-da-silva-mendes" target="_blank" rel="noopener">
+                    <img src="./imagens/rest-cert.png" alt="Certificado 6">
+                </a>
+                <p class="legenda">REST</p>
+            </div>
+        </div>
+        <div class="arrow next" onclick="moveCarousel(1)">&#10095;</div>
+        <div class="arrow prev" onclick="moveCarousel(-1)">&#10094;</div>
+        </div>
+    <div class="projetos" id="projeto">
+        <h2>Projetos Realizados</h2>
+        <div class="grid-container">
+            <div id ="projeto-cafeteria" class="projeto">
+                <a href="https://github.com/ErikaMendes89/Projeto-cafeteria" target="_blank" rel="noopener">
+                    <img src="./imagens/projeto-cafeteria.gif.gif" alt="Projeto 1">
+                </a>
+                <p>Projeto Cafeteria - Realizado no curso do DevMedia</p>
+            </div>
+            <div id="site-de-hospedagem" class="projeto">
+                <a href="https://github.com/ErikaMendes89/projeto-Website-hospedagem" target="_blank" rel="noopener">
+                    <img src="./imagens/site-de-hospedagem.gif.gif" alt="Projeto 2">
+                </a>
+                <p>Projeto FlexBox - Realizado no curso DevMedia</p>
+            </div>
+            <div id="calculadora-de-idade" class="projeto">
+                <a href="https://github.com/ErikaMendes89/Calculadora-de-idade/tree/main" target="_blank" rel="noopener">
+                    <img src="./imagens/calculadoradeidade.gif.gif" alt="Projeto 2">
+                </a>
+                <p>Projeto simples Calculadora de idade - Realizado no curso Domestika</p>
+            </div>
+            <div id="jogo-simples-da-memoria" class="projeto">
+                <a href="https://github.com/ErikaMendes89/jogo-simples-da-memoria" target="_blank" rel="noopener">
+                    <img src="./imagens/jogo-da-memoria-gif.gif" alt="Projeto 3">
+                </a>
+                <p>Projeto simples Calculadora de idade - Realizado no curso Domestika</p>
+            </div>
+        </div>
+    </div>
+   </main>
+    <footer class="rodape" id="rodape">  
+        <ul>
+            <li><a href="https://www.linkedin.com/in/erika-mendes-3b798a64/"  title="Acesse o linkedin" target="_blank" rel="noopener">
+                <img src="./imagens/linkedin-logo.png" alt="redesocial1">
+            </a></li>
+            <li><a href="https://github.com/ErikaMendes89" target="_blank" title="Acesse o github" rel="noopener">
+                <img src="./imagens/github-logo.png" alt="redesocial2">
+            </a></li>
+            <li><a href="https://wa.me/qr/RUJY7FTBZP3UG1" target="_blank" title="entre em contato" rel="noopener">
+                <img src="./imagens/whatsapp-logo.png" alt="redesocial3">
+            </a></li>
+        </ul>
+        <p>Desenvoldido por <span>Erika Mendes.</span></p>
+    </footer>
+    
+    <script src="script.js"></script>
+   
+</body>
+</html>
